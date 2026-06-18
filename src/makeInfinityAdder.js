@@ -3,7 +3,7 @@
 /***
  * @return {function}
  */
-function makeInfinityAdder() {
+function makeAdder() {
   let total = 0;
 
   function adder(value) {
@@ -22,5 +22,8 @@ function makeInfinityAdder() {
 
   return adder;
 }
+
+// Alias for the skeleton requirement
+const makeInfinityAdder = makeAdder;
 
 module.exports = makeInfinityAdder;
