@@ -23,7 +23,4 @@ function makeAdder() {
   return adder;
 }
 
-// Alias for the skeleton requirement
-const makeInfinityAdder = makeAdder;
-
-module.exports = makeInfinityAdder;
+module.exports = makeAdder;
